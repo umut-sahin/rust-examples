@@ -1,0 +1,5 @@
+[package]
+name = "threads"
+version = "1.0.0"
+authors = ["Umut Şahin <umutsahin@protonmail.com>"]
+edition = "2018"

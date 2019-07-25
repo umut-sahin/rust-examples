@@ -1,0 +1,13 @@
+# Covers Rust
+target
+**/*.rs.bk
+
+# Covers Visual Studio Code
+.vscode
+
+# Covers JetBrains IDEs
+.idea
+
+# Covers others
+.env
+.DS_Store

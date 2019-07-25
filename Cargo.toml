@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "brainfuck-interpreter",
+    "command-line-arguments",
+    "memory-mapped-io",
+    "operator-overloading",
+    "parking-threads",
+    "read-from-console",
+    "threads",
+    "write-to-console",
+]

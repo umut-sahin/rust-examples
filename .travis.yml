@@ -1,0 +1,23 @@
+language: rust
+
+notifications:
+  email:
+    on_success: never
+
+rust:
+  - stable
+  - beta
+  - nightly
+
+dist: trusty
+
+sudo: required
+
+script:
+  - cargo build --all --verbose
+  - cargo test --all --verbose
+
+branches:
+  only:
+    - master
+    - development

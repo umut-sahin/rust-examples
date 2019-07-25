@@ -1,0 +1,8 @@
+[package]
+name = "memory-mapped-io"
+version = "1.0.0"
+authors = ["Umut Şahin <umutsahin@protonmail.com>"]
+edition = "2018"
+
+[dependencies.memmap]
+version = "0.7.0"
