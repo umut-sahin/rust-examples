@@ -98,6 +98,8 @@ None
 ## Notes
 
 - Newline character is always **\n** in [Rust]s standard library.
+- [**std::process::exit**] immediately terminates the process without any clean up.
+  Thus, the variable **input**, is manually dropped before calling [**std::process::exit**].
 
 ## Further reading
 
@@ -122,6 +124,8 @@ None
   https://doc.rust-lang.org/std/io/struct.Stdin.html#method.read_line
 [**Result**]:
   https://doc.rust-lang.org/std/result/enum.Result.html
+[**std::process::exit**]:
+  https://doc.rust-lang.org/std/process/fn.exit.html
 [**stdin**]:
   https://doc.rust-lang.org/std/io/fn.stdin.html
 [**Stdin**]:
