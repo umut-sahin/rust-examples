@@ -1,6 +1,6 @@
 <div align="center">
   <h1>write-to-console</h1>
-  A simple program which demonstrates how to write to the standard output
+  A simple program, which demonstrates how to write to the standard output
 </div>
 
 ## Authors

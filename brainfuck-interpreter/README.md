@@ -24,7 +24,7 @@ The parser is a handwritten one.
 It's pretty easy to read though.
 If the parsing fails for some reason, a [**Result**]<**Interpreter**, **SyntaxError**> is returned with [**Err**] variant which contains the information about the error.
 
-Otherwise, the parsing is successful and hence we got a nice **Interpreter** which contains a valid instruction list.
+Otherwise, the parsing is successful and hence we got a nice **Interpreter**, which contains a valid instruction list.
 
 At this point, all we need to do left is to interpret the instructions.
 This functionality is implemented for **Interpreter** in a method named **execute**.
@@ -36,7 +36,7 @@ If **execute** fails to interpret the whole program, it returns a **RuntimeError
 Finally, we call the **execute** method on the **Interpreter** we have.
 If **execute** returns an [**Err**], we simply print the information about the error and exit the program with an erroneous return code.
 
-Otherwise, everything went as expected so we terminate the program normally.
+Otherwise, everything went as expected, so we terminate the program normally.
 
 ## Usage
 

@@ -1,6 +1,6 @@
 <div align="center">
   <h1>read-from-console</h1>
-  A simple program which demonstrates how to read from the standard input
+  A simple program, which demonstrates how to read from the standard input
 </div>
 
 ## Authors
@@ -24,7 +24,7 @@ The program then waits for the user input.
 This can be done with the [**read_line**] method on the [**Stdin**] struct ([**Stdin**] instance for the current process can be obtained with the [**stdin**] function in the standard [**io**] module).
 The [**read_line**] method reads data to a [**String**] instance from the standard input until a newline character is encountered.
 
-[**Strings**] automatically grow the on the heap, so we don't need to worry about the memory issues.
+[**String**]s automatically grow the on the heap, so we don't need to worry about the memory issues.
 
 However, we might run into other issues such as the input not being a valid UTF-8, or we might encounter a critical I/O error.
 In our example, the [**unwrap**] method is used to handle those errors.
@@ -98,6 +98,8 @@ None
 ## Notes
 
 - Newline character is always **\n** in [Rust]s standard library.
+- [**std::process::exit**] immediately terminates the process without any clean up.
+  Thus, the variable **input**, is manually dropped before calling [**std::process::exit**].
 
 ## Further reading
 
@@ -122,6 +124,8 @@ None
   https://doc.rust-lang.org/std/io/struct.Stdin.html#method.read_line
 [**Result**]:
   https://doc.rust-lang.org/std/result/enum.Result.html
+[**std::process::exit**]:
+  https://doc.rust-lang.org/std/process/fn.exit.html
 [**stdin**]:
   https://doc.rust-lang.org/std/io/fn.stdin.html
 [**Stdin**]:
