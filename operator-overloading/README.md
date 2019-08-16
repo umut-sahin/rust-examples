@@ -93,7 +93,7 @@ None
 
 ## Notes
 
-- Destruction's desugared form is not exactly as written above because the drop in there is actually [**std::mem::drop**] function, which takes it's argument by moving.
+- Destruction's desugared form is not exactly as written above because the drop in there is actually [**std::mem::drop**] function, which takes its argument by moving.
   So at the end of the [**std::mem::drop**] function, [**drop**] method of the [**std::ops::Drop**] trait will be called like the desugared form automatically.
 - Descriptions of the [**std::cmp**] and [**std::ops**] modules explain further details perfectly.
   So reading them is highly recommended.

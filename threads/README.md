@@ -31,7 +31,7 @@ Anyway, the closure that we passed while calling the [**spawn**] function writes
 Now the main thread can continue its execution.
 The [**join**] function returns the result of the closure to the main thread, which is **data_to_pass + 42** in this case.
 
-Then, we assert that the **threads_return** is indeed **data_to_pass + 42** and we are done.
+Then, we assert that the **threads_return** is indeed **data_to_pass + 42**, and we are done.
 
 ## Usage
 

@@ -20,7 +20,7 @@ In this example, we will only focus on [Memory Mapped File I/O].
 [memmap] provides two structs, namely [**Mmap**] and [**MmapMut**].
 The difference between them is pretty obvious.
 For this example, we need to change the contents of the file **memory-mapped-io/assets/hello-world.txt**.
-Thus we have used [**MmapMut**].
+Thus, we have used [**MmapMut**].
 
 To create the [**MmapMut**] instance, we have used the [**map_mut**] function associated with the [**MmapMut**] struct ([**map_mut**] is unsafe because [Memory Mapped I/O] itself is unsafe).
 This method has one parameter, which is a reference to a [**std::fs::File**] instance.

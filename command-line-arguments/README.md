@@ -1,6 +1,6 @@
 <div align="center">
   <h1>command-line-arguments</h1>
-  A simple program which demonstrates how to iterate over the arguments which are passed during the program invocation
+  A simple program, which demonstrates how to iterate over the arguments, which are passed during the program invocation
 </div>
 
 ## Authors
