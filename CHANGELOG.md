@@ -2,7 +2,7 @@
 ==================
 
   - Various typos in READMEs are fixed. ([#2](https://github.com/umut-sahin/rust-examples/issues/2))
-  - Further details are added to the [read-from-console] examples README. ([#3](https://github.com/umut-sahin/rust-examples/issues/2))
+  - Further details are added to the [read-from-console] examples README. ([#3](https://github.com/umut-sahin/rust-examples/issues/3))
 
 1.0.0 / 15-07-2019
 ==================
